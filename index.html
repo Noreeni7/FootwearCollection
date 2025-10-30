@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FootwearCollection</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <!-- =============================== NAVBAR ================================ -->
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-1">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <a href="index.php" class="navbar-brand fw-semibold text-white">FootwearCollection</a>
+
+            <div class="d-flex align-items-center">
+
+                <a href="cart.php" class="nav-link text-white fw-semibold d-md-none me-2">🛒 Cart
+                   
+                </a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Collapsible Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-pills ms-auto d-flex gap-3">
+
+                    <li class="nav-item d-none d-md-block">
+                        <a href="cart.php" class="nav-link text-white fw-semibold">🛒 Cart
+                            
+                        </a>
+                    </li>
+
+                        <li class="nav-item">
+                      
+                            <a href="login.php" class="nav-link text-white fw-semibold">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="register.php" class="nav-link text-white fw-semibold">Register</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- =============================== END OF NAVBAR ================================ -->
+
+    <!-- HERO SECTION -->
+    <div class="p-5 mt-5 text-center rounded mb-4 hero">
+        
+            <h1 class="display-4 fw-bold mb-3">Welcome to <span class="text-warning">FootwearCollection</span> 🛍️</h1>
+        <p class="lead mb-4">Find the best products.</p>
+
+        <a href="" class="btn btn-warning btn-lg fw-semibold px-4 shadow-sm">Shop Now</a>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <div class="container mt-5 main">
+        <div class="d-flex justify-content-center flex-wrap gap-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Sneakers - white
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1586525198428-225f6f12cff5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Jordan
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Sneakers
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1374" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        White puma sneaker
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1593287073863-c992914cb3e3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Adidas sneakers
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVlbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Heels - white
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1596702876489-9d11e5806161?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=435" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Black heels
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1605732440685-d0654d81aa30?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvb3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-center align-items-center gap-2">
+                    <h5 class="card-title">
+                        Ladies boots
+                    </h5>
+                    <!-- <p class="card-text text-danger">Price: ksh<?php echo htmlspecialchars($product['price']); ?></p> -->
+                    <a href="" class=""><i class="text-warning fs-2 bi bi-cart3"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        &copy; 2025 MyStore. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap JS (must be below all HTML) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- 
+A shorthand for an if–else statement.
+condition ? value_if_true : value_if_false;
+ -->
